@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 require 'uri'
+require 'alphadecimal'
 
 db = URI.parse(ENV['DATABASE_URL'] || 'postgres://ec2-23-21-209-85.compute-1.amazonaws.com/d9jjk8gveghpi')
 

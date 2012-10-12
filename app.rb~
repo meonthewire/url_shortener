@@ -8,8 +8,8 @@ ActiveRecord::Base.establish_connection(
   :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
   :host     => db.host,
   :port     => db.port,
-  :username => db.user,
-  :password => db.password,
+  :username => "qjtzitbepiiydm",
+  :password => "0Q63db8pccT76NjcjzbcDk0CBg",
   :database => db.path[1..-1],
   :encoding => 'utf8'
 )
