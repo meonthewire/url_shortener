@@ -5,5 +5,5 @@
 
 %form(action="/" method="POST")
   %label(for="url")
-  %input(type="text" name="url" size="50" id="url" placeholder="Cole a URL aqui")
+  %input(type="text" name="url" size="40" id="url" placeholder="Cole a URL aqui")
   %input(type="submit" value="Cortar!")
