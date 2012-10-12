@@ -41,7 +41,7 @@ end
 
 get '/:shortened' do
   short_url = ShortenedUrl.find_by_shortened(params[:shortened])
-  redirect short_url_url
+  redirect short_url.url
 end
 
 
