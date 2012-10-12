@@ -1,0 +1,9 @@
+- if @short_url.present? && @short_url.valid?
+
+  %p{:style => "font-style: italic;"}http://localhost:8080/#{@short_url.shorten}
+
+
+%form(action="/" method="POST")
+  %label(for="url")
+  %input(type="text" name="url" size="40" id="url" placeholder="Cole a URL aqui")
+  %input(type="submit" value="Cortar!")
