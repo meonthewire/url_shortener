@@ -1,7 +1,3 @@
-require 'sinatra'
-require 'sinatra/activerecord'
-require 'alphadecimal'
-
 set :database, {
   adapter: 'postgresql',
   encoding: 'utf8',
