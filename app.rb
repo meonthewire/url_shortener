@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require 'uri'
 
-db = URI.parse(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
+db = URI.parse(ENV['DATABASE_URL'] || 'postgres://localhost/shortener_production')
 
 ActiveRecord::Base.establish_connection(
   :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
