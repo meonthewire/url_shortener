@@ -1,12 +1,4 @@
-set :database, {
-  adapter: 'postgresql',
-  encoding: 'utf8',
-  database: 'shortner_development',
-  pool: 5,
-  username: 'postgres',
-  password: 153759,
-  host: 'localhost'
-}
+
 
 class ShortenedUrl < ActiveRecord::Base
   validates_uniqueness_of :url
