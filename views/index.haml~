@@ -1,5 +1,0 @@
-.div{:style => "text-align: center;"}
-  %form(action="/" method="POST")
-    %label(for="url")
-    %input(type="text" name="url" size="40" id="url" placeholder="Cole aqui que a gente encurta pra vc. ;)")
-    %input(type="submit" value="Cortar!")
